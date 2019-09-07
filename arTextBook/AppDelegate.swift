@@ -16,23 +16,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         FirebaseApp.configure()
-        
-        window = UIWindow(frame: UIScreen.main.bounds)
-        
-        let loggedIn = true
-        
-        var startVC = UIViewController()
-        if (loggedIn) {
-            let layout = UICollectionViewLayout()
-            startVC = MyTextbooksView(collectionViewLayout: layout)
-        } else {
-            startVC = EnterClassCodeScreen()
-        }
-        
-        window?.makeKeyAndVisible()
-        window?.rootViewController = startVC
-        window?.tintColor = .white
-        
+//        
+//        window = UIWindow(frame: UIScreen.main.bounds)
+//        
+//        let loggedIn = true
+//        
+//        var startVC = UIViewController()
+//        if (loggedIn) {
+//            let layout = UICollectionViewLayout()
+//            startVC = MyTextbooksView(collectionViewLayout: layout)
+//        } else {
+//            startVC = EnterClassCodeScreen()
+//        }
+//        
+//        window?.makeKeyAndVisible()
+//        window?.rootViewController = startVC
+//        window?.tintColor = .white
+//        
         return true
     }
 
