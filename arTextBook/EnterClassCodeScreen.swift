@@ -49,9 +49,7 @@ class EnterClassCodeScreen: UIViewController, UITextFieldDelegate {
     
     
     @objc func loadTextbooks() { //objective C function
-        
         LoadFunction()
-        
     }
     
     
@@ -70,6 +68,7 @@ class EnterClassCodeScreen: UIViewController, UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         entryField.resignFirstResponder()
         self.curClassCode = entryField.text ?? "invalid"
+        
         return true
         
     }
@@ -95,6 +94,8 @@ class EnterClassCodeScreen: UIViewController, UITextFieldDelegate {
     }
     
     func LoadFunction(){
+        self.curClassCode = entryField.text ?? "invalid"
+        
         let ref = Database.database().reference()
         let myData = ref.child(self.curClassCode)
         let myGroup = DispatchGroup()
