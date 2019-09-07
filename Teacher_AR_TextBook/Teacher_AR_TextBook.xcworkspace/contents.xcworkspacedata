@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/jamesluo/Documents/arTextBook/Teacher_AR_TextBook/Teacher_AR_TextBook/Calc.jpg">
+   </FileRef>
+   <FileRef
+      location = "group:Teacher_AR_TextBook.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

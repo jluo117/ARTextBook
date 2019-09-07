@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>479883969865-ah91c6t0lge4psbhtcg9omvd96rnhndl.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.479883969865-ah91c6t0lge4psbhtcg9omvd96rnhndl</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDJqSFo6fnCqbRyuXhbQNCBnkrKEoJjOyo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>479883969865</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>acm.Teacher-AR-TextBook</string>
+	<key>PROJECT_ID</key>
+	<string>artextbook</string>
+	<key>STORAGE_BUCKET</key>
+	<string>artextbook.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:479883969865:ios:dc2d5c760f90920d894698</string>
+	<key>DATABASE_URL</key>
+	<string>https://artextbook.firebaseio.com</string>
+</dict>
+</plist>
