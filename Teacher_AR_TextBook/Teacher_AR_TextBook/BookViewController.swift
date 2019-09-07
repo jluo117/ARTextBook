@@ -20,7 +20,7 @@ class BookViewController: UIViewController {
         Image.image = UIImage(named: targetBook.Image)
         self.Genre.text = targetBook.Genre
         self.BookName.text = targetBook.BookName
-        self.Level.text = "Level: " + String(targetBook.Level)
+        self.Level.text = String(targetBook.Level)
         // Do any additional setup after loading the view.
     }
     

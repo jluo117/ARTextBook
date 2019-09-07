@@ -23,6 +23,11 @@
 		79BF43912324246F00917CB4 /* RainForestPart2.scn in Resources */ = {isa = PBXBuildFile; fileRef = 79BF43902324246F00917CB4 /* RainForestPart2.scn */; };
 		79BF4393232425C200917CB4 /* Fume_camp_sample.max in Resources */ = {isa = PBXBuildFile; fileRef = 79BF4392232425C200917CB4 /* Fume_camp_sample.max */; };
 		79BF43952324263700917CB4 /* RainForestPart3.scn in Resources */ = {isa = PBXBuildFile; fileRef = 79BF43942324263700917CB4 /* RainForestPart3.scn */; };
+		79DDFBC623242C4200A3CA76 /* New_RedBase_Color.png in Resources */ = {isa = PBXBuildFile; fileRef = 79DDFBC523242C4200A3CA76 /* New_RedBase_Color.png */; };
+		79DDFBC823242C6F00A3CA76 /* LinkedList.scn in Resources */ = {isa = PBXBuildFile; fileRef = 79DDFBC723242C6F00A3CA76 /* LinkedList.scn */; };
+		79DDFBCA2324306200A3CA76 /* Arrow.obj in Resources */ = {isa = PBXBuildFile; fileRef = 79DDFBC92324306200A3CA76 /* Arrow.obj */; };
+		79DDFBCC2324307900A3CA76 /* LinkListAdd.scn in Resources */ = {isa = PBXBuildFile; fileRef = 79DDFBCB2324307900A3CA76 /* LinkListAdd.scn */; };
+		79DDFBCE232430E900A3CA76 /* LinkListDone.scn in Resources */ = {isa = PBXBuildFile; fileRef = 79DDFBCD232430E900A3CA76 /* LinkListDone.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +49,13 @@
 		79BF43902324246F00917CB4 /* RainForestPart2.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = RainForestPart2.scn; sourceTree = "<group>"; };
 		79BF4392232425C200917CB4 /* Fume_camp_sample.max */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fume_camp_sample.max; sourceTree = "<group>"; };
 		79BF43942324263700917CB4 /* RainForestPart3.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = RainForestPart3.scn; sourceTree = "<group>"; };
+		79BF43972324299C00917CB4 /* Cube_obj.obj */ = {isa = PBXFileReference; lastKnownFileType = text; name = Cube_obj.obj; path = /Users/jamesluo/Documents/arTextBook/arTextBook/Cube_obj.obj; sourceTree = "<absolute>"; };
+		79BF4398232429AD00917CB4 /* Cube_obj.obj */ = {isa = PBXFileReference; lastKnownFileType = text; name = Cube_obj.obj; path = /Users/jamesluo/Documents/arTextBook/arTextBook/Cube_obj.obj; sourceTree = "<absolute>"; };
+		79DDFBC523242C4200A3CA76 /* New_RedBase_Color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = New_RedBase_Color.png; sourceTree = "<group>"; };
+		79DDFBC723242C6F00A3CA76 /* LinkedList.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = LinkedList.scn; sourceTree = "<group>"; };
+		79DDFBC92324306200A3CA76 /* Arrow.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Arrow.obj; sourceTree = "<group>"; };
+		79DDFBCB2324307900A3CA76 /* LinkListAdd.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = LinkListAdd.scn; sourceTree = "<group>"; };
+		79DDFBCD232430E900A3CA76 /* LinkListDone.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = LinkListDone.scn; sourceTree = "<group>"; };
 		7E1F2B44E66754F82820785E /* Pods_arTextBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_arTextBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0626EC313680DB3BE5B5734 /* Pods-arTextBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-arTextBook.debug.xcconfig"; path = "Target Support Files/Pods-arTextBook/Pods-arTextBook.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,8 +102,14 @@
 			isa = PBXGroup;
 			children = (
 				79B5575923233D930070E2A8 /* GoogleService-Info.plist */,
+				79BF4398232429AD00917CB4 /* Cube_obj.obj */,
+				79DDFBC723242C6F00A3CA76 /* LinkedList.scn */,
+				79DDFBCB2324307900A3CA76 /* LinkListAdd.scn */,
+				79DDFBCD232430E900A3CA76 /* LinkListDone.scn */,
 				794E9AA42323311800162DED /* AppDelegate.swift */,
 				6B9CFB2E2324066A000284B6 /* myTextbooksView.swift */,
+				79BF43972324299C00917CB4 /* Cube_obj.obj */,
+				79DDFBC92324306200A3CA76 /* Arrow.obj */,
 				6B59B08B23235F0800AFF4CC /* EnterClassCodeScreen.swift */,
 				794E9AA82323311800162DED /* Main.storyboard */,
 				79B38432232356B00084FD77 /* Tree_OBJ.mtl */,
@@ -99,6 +117,7 @@
 				79B38436232356FB0084FD77 /* RainForrest.scn */,
 				79BF43902324246F00917CB4 /* RainForestPart2.scn */,
 				79BF43942324263700917CB4 /* RainForestPart3.scn */,
+				79DDFBC523242C4200A3CA76 /* New_RedBase_Color.png */,
 				79BF4392232425C200917CB4 /* Fume_camp_sample.max */,
 				79BF438E232422C300917CB4 /* jaguar.mtl */,
 				79BF438C2324228A00917CB4 /* Jaguar.obj */,
@@ -182,7 +201,12 @@
 				79BF4393232425C200917CB4 /* Fume_camp_sample.max in Resources */,
 				794E9AAF2323311A00162DED /* LaunchScreen.storyboard in Resources */,
 				79B38435232356B10084FD77 /* Tree_OBJ.obj in Resources */,
+				79DDFBCC2324307900A3CA76 /* LinkListAdd.scn in Resources */,
+				79DDFBCE232430E900A3CA76 /* LinkListDone.scn in Resources */,
 				79B38434232356B10084FD77 /* Tree_OBJ.mtl in Resources */,
+				79DDFBCA2324306200A3CA76 /* Arrow.obj in Resources */,
+				79DDFBC823242C6F00A3CA76 /* LinkedList.scn in Resources */,
+				79DDFBC623242C4200A3CA76 /* New_RedBase_Color.png in Resources */,
 				79BF43912324246F00917CB4 /* RainForestPart2.scn in Resources */,
 				79B5575A23233D930070E2A8 /* GoogleService-Info.plist in Resources */,
 				794E9AAC2323311A00162DED /* Assets.xcassets in Resources */,
