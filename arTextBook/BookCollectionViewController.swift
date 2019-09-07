@@ -49,7 +49,7 @@ class BookCollectionViewController: UICollectionViewController {
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Book", for: indexPath) as! BookCollectionViewCell
-        cell.BookTitle.text = userBooks[indexPath.row]
+        cell.BookName.setTitle(userBooks[indexPath.row], for: .normal) 
         // Configure the cell
     
         return cell

@@ -7,9 +7,14 @@
 //
 
 import UIKit
-
+var Current = "test"
 class BookCollectionViewCell: UICollectionViewCell {
-    @IBOutlet weak var BookTitle: UILabel!
+    @IBAction func toAR(_ sender: UIButton) {
+        Current = BookName.currentTitle!
+        print(Current)
+    }
+    
+    @IBOutlet weak var BookName: UIButton!
     
     
 }

@@ -79,18 +79,22 @@
                                     <rect key="frame" x="0.0" y="0.0" width="151" height="152"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Book" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pRa-1K-jJ5">
-                                            <rect key="frame" x="20" y="66" width="110" height="21"/>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tz7-JY-do5">
+                                            <rect key="frame" x="20" y="34" width="111" height="83"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
+                                            <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                            <state key="normal" title="Button">
+                                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="toAR:" destination="g7e-41-6wd" eventType="touchUpInside" id="8Ov-EZ-g7o"/>
+                                                <segue destination="HR6-js-mcT" kind="show" id="rCJ-JD-CwT"/>
+                                            </connections>
+                                        </button>
                                     </subviews>
                                 </view>
                                 <connections>
-                                    <outlet property="BookTitle" destination="pRa-1K-jJ5" id="b9e-Ma-3ui"/>
-                                    <segue destination="HR6-js-mcT" kind="show" id="JQA-uk-hBk"/>
+                                    <outlet property="BookName" destination="tz7-JY-do5" id="ayC-1A-anR"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -102,7 +106,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N71-qJ-awl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1065" y="116"/>
+            <point key="canvasLocation" x="1064.8" y="115.59220389805098"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="seP-nX-qLA">
@@ -111,18 +115,7 @@
                     <view key="view" contentMode="scaleToFill" id="yyb-B0-xmT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K1p-aW-Mq4">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </arscnView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="K1p-aW-Mq4" firstAttribute="trailing" secondItem="bQz-45-VGc" secondAttribute="trailing" id="WuB-jj-JFh"/>
-                            <constraint firstItem="K1p-aW-Mq4" firstAttribute="bottom" secondItem="bQz-45-VGc" secondAttribute="bottom" id="juI-3i-9dV"/>
-                            <constraint firstItem="K1p-aW-Mq4" firstAttribute="leading" secondItem="bQz-45-VGc" secondAttribute="leading" id="qTS-4v-F9v"/>
-                            <constraint firstItem="K1p-aW-Mq4" firstAttribute="top" secondItem="yyb-B0-xmT" secondAttribute="top" id="tsZ-Ty-tjP"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="bQz-45-VGc"/>
                     </view>
                 </viewController>
