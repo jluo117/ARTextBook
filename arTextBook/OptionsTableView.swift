@@ -7,7 +7,7 @@
 
 import UIKit
 
-class OptionsTableView: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class OptionsTableView: UIViewController {
     let tableView = UITableView()
     override func viewDidLoad() {
         setupTableView()
@@ -16,13 +16,7 @@ class OptionsTableView: UIViewController, UITableViewDelegate, UITableViewDataSo
 
         // Do any additional setup after loading the view.
     }
-    func numberofSections(in tableView: UITableView) -> Int{
-        return 1
-    }
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
-        return myAry.count
-    }
-    
+   
     func setupTableView() {
         view.addSubview(tableView)
         tableView.translatesAutoresizingMaskIntoConstraints = false

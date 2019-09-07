@@ -11,7 +11,7 @@ import FirebaseDatabase
 import SwiftyJSON
 var myAry = [String]()
 class EnterClassCodeScreen: UIViewController, UITextFieldDelegate {
-    var curClassCode = ""
+    var curClassCode = "invalid"
     //var myAry = [String] ()
     lazy var entryField: UITextField = {
         let field = UITextField(frame: CGRect(x: 20, y: 50, width: self.view.frame.width * 0.8, height: 50))
@@ -69,7 +69,7 @@ class EnterClassCodeScreen: UIViewController, UITextFieldDelegate {
     }
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         entryField.resignFirstResponder()
-        self.curClassCode = entryField.text ?? ""
+        self.curClassCode = entryField.text ?? "invalid"
         return true
         
     }
