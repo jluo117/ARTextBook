@@ -314,7 +314,6 @@
         <image name="math.jpg" width="512" height="640"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Ocg-ua-APi"/>
-        <segue reference="JWz-8N-lka"/>
+        <segue reference="dag-Y1-LOg"/>
     </inferredMetricsTieBreakers>
 </document>
