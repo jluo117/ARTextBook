@@ -74,7 +74,6 @@ class EnterClassCodeScreen: UIViewController, UITextFieldDelegate {
         
     }
     func setUpLayout() {
-        
         entryField.translatesAutoresizingMaskIntoConstraints = false
         entryLabel.translatesAutoresizingMaskIntoConstraints = false
         entryButton.translatesAutoresizingMaskIntoConstraints = false
@@ -93,8 +92,8 @@ class EnterClassCodeScreen: UIViewController, UITextFieldDelegate {
             entryButton.widthAnchor.constraint(equalToConstant: self.view.frame.width * 0.5),
             entryButton.heightAnchor.constraint(equalToConstant: self.view.frame.height * 0.05)
             ])
-        
     }
+    
     func LoadFunction(){
         let ref = Database.database().reference()
         let myData = ref.child(self.curClassCode)
@@ -115,8 +114,6 @@ class EnterClassCodeScreen: UIViewController, UITextFieldDelegate {
                 
                 //alertController.view.backgroundColor = UIColor.init(named: "Blue")
                 self.present(alertController, animated: false, completion: nil)
-                
-                
             }
             else{
                 valid = true
@@ -127,7 +124,6 @@ class EnterClassCodeScreen: UIViewController, UITextFieldDelegate {
                 if (myBook != nil){
                     myAry.append(myBook!)
                 }
-                
             }
             
             print(myAry)
