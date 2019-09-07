@@ -9,9 +9,10 @@
 import UIKit
 import FirebaseDatabase
 import SwiftyJSON
+var myAry = [String]()
 class EnterClassCodeScreen: UIViewController, UITextFieldDelegate {
     var curClassCode = ""
-    var myAry = [String] ()
+    //var myAry = [String] ()
     lazy var entryField: UITextField = {
         let field = UITextField(frame: CGRect(x: 20, y: 50, width: self.view.frame.width * 0.8, height: 50))
         field.layer.borderColor = UIColor.black.cgColor
@@ -124,12 +125,12 @@ class EnterClassCodeScreen: UIViewController, UITextFieldDelegate {
             for myData in myDataAry{
                 let myBook = myData["Name"].string
                 if (myBook != nil){
-                    self.myAry.append(myBook!)
+                    myAry.append(myBook!)
                 }
                 
             }
             
-            print(self.myAry)
+            print(myAry)
             myGroup.leave()
         })
         myGroup.notify(queue: .main){
