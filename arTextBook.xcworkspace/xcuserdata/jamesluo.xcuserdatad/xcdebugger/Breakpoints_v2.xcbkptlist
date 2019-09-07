@@ -26,12 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "arTextBook/EnterClassCodeScreen.swift"
-            timestampString = "589553614.902962"
+            timestampString = "589569271.947919"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "96"
             endingLineNumber = "96"
-            landmarkName = "setUpLayout()"
+            landmarkName = "LoadFunction()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

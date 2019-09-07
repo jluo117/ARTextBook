@@ -13,7 +13,8 @@ class MyTextbooksView: UIViewController, UICollectionViewDataSource {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        textbooks = myAry
+        print("good")
         
     }
     

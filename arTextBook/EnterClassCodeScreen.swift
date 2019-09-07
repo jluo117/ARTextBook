@@ -12,6 +12,7 @@ import SwiftyJSON
 var myAry = [String]()
 class EnterClassCodeScreen: UIViewController, UITextFieldDelegate {
     var curClassCode = "invalid"
+
     //var myAry = [String] ()
     lazy var entryField: UITextField = {
         let field = UITextField(frame: CGRect(x: 20, y: 50, width: self.view.frame.width * 0.8, height: 50))
@@ -68,7 +69,6 @@ class EnterClassCodeScreen: UIViewController, UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         entryField.resignFirstResponder()
         self.curClassCode = entryField.text ?? "invalid"
-        
         return true
         
     }
@@ -94,7 +94,15 @@ class EnterClassCodeScreen: UIViewController, UITextFieldDelegate {
     }
     
     func LoadFunction(){
-        self.curClassCode = entryField.text ?? "invalid"
+        myAry = []
+        if curClassCode == ""{
+            let alertController = UIAlertController(title: "Invalid Class ID", message:
+                "Enter a Valid Class Code", preferredStyle: .alert)
+            let action = UIAlertAction(title: "Exit", style: .cancel)
+            action.setValue(UIColor.black, forKey: "titleTextColor")
+            alertController.addAction(action)
+            return
+        }
         
         let ref = Database.database().reference()
         let myData = ref.child(self.curClassCode)
@@ -132,7 +140,9 @@ class EnterClassCodeScreen: UIViewController, UITextFieldDelegate {
         })
         myGroup.notify(queue: .main){
             if valid{
-                print("next screen")
+                let nextView = MyTextbooksView()
+                 let new = UINavigationController(rootViewController: nextView)
+                self.show(new, sender: self)
             }
             else{
                 print("wait here")

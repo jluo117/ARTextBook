@@ -1,0 +1,214 @@
+#
+# Wavefront material file: e:\projects\turbo-squid\scans\jaguar\obj\jaguar.mtl
+#
+# Converted by the PolyTrans geometry converter from Okino Computer Graphics, Inc.
+# Date/time of export: 02/27/2010 01:11:46
+#
+# Bounding box of geometry = (-214.836,-31.133,-1226.89) to (288.861,1189.89,881.317).
+
+newmtl default
+	Ns 32
+	d 1
+	illum 2
+	Kd 0.4 0.4 0.4
+	Ks 0.7 0.7 0.7
+	Ka 0.3 0.3 0.3
+
+newmtl Jaguar_0
+	Ns 64
+	d 1
+	illum 2
+	Kd 0.784314 0.784314 0.784314
+	Ks 0.254902 0.254902 0.254902
+	Ka 0.235294 0.235294 0.235294
+	map_Kd jaguar_t1.jpg
+
+newmtl Jaguar_1
+	Ns 64
+	d 1
+	illum 2
+	Kd 0.784314 0.784314 0.784314
+	Ks 0.254902 0.254902 0.254902
+	Ka 0.235294 0.235294 0.235294
+	map_Kd jaguar_t2.jpg
+
+newmtl Jaguar_10
+	Ns 64
+	d 1
+	illum 2
+	Kd 0.784314 0.784314 0.784314
+	Ks 0.254902 0.254902 0.254902
+	Ka 0.235294 0.235294 0.235294
+	map_Kd jaguar_t11.jpg
+
+newmtl Jaguar_11
+	Ns 64
+	d 1
+	illum 2
+	Kd 0.784314 0.784314 0.784314
+	Ks 0.254902 0.254902 0.254902
+	Ka 0.235294 0.235294 0.235294
+	map_Kd jaguar_t12.jpg
+
+newmtl Jaguar_12
+	Ns 64
+	d 1
+	illum 2
+	Kd 0.784314 0.784314 0.784314
+	Ks 0.254902 0.254902 0.254902
+	Ka 0.235294 0.235294 0.235294
+	map_Kd jaguar_t13.jpg
+
+newmtl Jaguar_13
+	Ns 64
+	d 1
+	illum 2
+	Kd 0.784314 0.784314 0.784314
+	Ks 0.254902 0.254902 0.254902
+	Ka 0.235294 0.235294 0.235294
+	map_Kd jaguar_t14.jpg
+
+newmtl Jaguar_14
+	Ns 64
+	d 1
+	illum 2
+	Kd 0.784314 0.784314 0.784314
+	Ks 0.254902 0.254902 0.254902
+	Ka 0.235294 0.235294 0.235294
+	map_Kd jaguar_t15.jpg
+
+newmtl Jaguar_15
+	Ns 64
+	d 1
+	illum 2
+	Kd 0.784314 0.784314 0.784314
+	Ks 0.254902 0.254902 0.254902
+	Ka 0.235294 0.235294 0.235294
+	map_Kd jaguar_t16.jpg
+
+newmtl Jaguar_16
+	Ns 64
+	d 1
+	illum 2
+	Kd 0.784314 0.784314 0.784314
+	Ks 0.254902 0.254902 0.254902
+	Ka 0.235294 0.235294 0.235294
+	map_Kd jaguar_t17.jpg
+
+newmtl Jaguar_17
+	Ns 64
+	d 1
+	illum 2
+	Kd 0.784314 0.784314 0.784314
+	Ks 0.254902 0.254902 0.254902
+	Ka 0.235294 0.235294 0.235294
+	map_Kd jaguar_t18.jpg
+
+newmtl Jaguar_18
+	Ns 64
+	d 1
+	illum 2
+	Kd 0.784314 0.784314 0.784314
+	Ks 0.254902 0.254902 0.254902
+	Ka 0.235294 0.235294 0.235294
+	map_Kd jaguar_t19.jpg
+
+newmtl Jaguar_19
+	Ns 64
+	d 1
+	illum 2
+	Kd 0.784314 0.784314 0.784314
+	Ks 0.254902 0.254902 0.254902
+	Ka 0.235294 0.235294 0.235294
+	map_Kd jaguar_t20.jpg
+
+newmtl Jaguar_2
+	Ns 64
+	d 1
+	illum 2
+	Kd 0.784314 0.784314 0.784314
+	Ks 0.254902 0.254902 0.254902
+	Ka 0.235294 0.235294 0.235294
+	map_Kd jaguar_t3.jpg
+
+newmtl Jaguar_20
+	Ns 64
+	d 1
+	illum 2
+	Kd 0.784314 0.784314 0.784314
+	Ks 0.254902 0.254902 0.254902
+	Ka 0.235294 0.235294 0.235294
+	map_Kd jaguar_t21.jpg
+
+newmtl Jaguar_21
+	Ns 64
+	d 1
+	illum 2
+	Kd 0.784314 0.784314 0.784314
+	Ks 0.254902 0.254902 0.254902
+	Ka 0.235294 0.235294 0.235294
+	map_Kd jaguar_t22.jpg
+
+newmtl Jaguar_3
+	Ns 64
+	d 1
+	illum 2
+	Kd 0.784314 0.784314 0.784314
+	Ks 0.254902 0.254902 0.254902
+	Ka 0.235294 0.235294 0.235294
+	map_Kd jaguar_t4.jpg
+
+newmtl Jaguar_4
+	Ns 64
+	d 1
+	illum 2
+	Kd 0.784314 0.784314 0.784314
+	Ks 0.254902 0.254902 0.254902
+	Ka 0.235294 0.235294 0.235294
+	map_Kd jaguar_t5.jpg
+
+newmtl Jaguar_5
+	Ns 64
+	d 1
+	illum 2
+	Kd 0.784314 0.784314 0.784314
+	Ks 0.254902 0.254902 0.254902
+	Ka 0.235294 0.235294 0.235294
+	map_Kd jaguar_t6.jpg
+
+newmtl Jaguar_6
+	Ns 64
+	d 1
+	illum 2
+	Kd 0.784314 0.784314 0.784314
+	Ks 0.254902 0.254902 0.254902
+	Ka 0.235294 0.235294 0.235294
+	map_Kd jaguar_t7.jpg
+
+newmtl Jaguar_7
+	Ns 64
+	d 1
+	illum 2
+	Kd 0.784314 0.784314 0.784314
+	Ks 0.254902 0.254902 0.254902
+	Ka 0.235294 0.235294 0.235294
+	map_Kd jaguar_t8.jpg
+
+newmtl Jaguar_8
+	Ns 64
+	d 1
+	illum 2
+	Kd 0.784314 0.784314 0.784314
+	Ks 0.254902 0.254902 0.254902
+	Ka 0.235294 0.235294 0.235294
+	map_Kd jaguar_t9.jpg
+
+newmtl Jaguar_9
+	Ns 64
+	d 1
+	illum 2
+	Kd 0.784314 0.784314 0.784314
+	Ks 0.254902 0.254902 0.254902
+	Ka 0.235294 0.235294 0.235294
+	map_Kd jaguar_t10.jpg
+

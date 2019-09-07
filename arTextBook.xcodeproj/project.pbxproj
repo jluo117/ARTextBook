@@ -18,6 +18,11 @@
 		79B38435232356B10084FD77 /* Tree_OBJ.obj in Resources */ = {isa = PBXBuildFile; fileRef = 79B38433232356B10084FD77 /* Tree_OBJ.obj */; };
 		79B38437232356FB0084FD77 /* RainForrest.scn in Resources */ = {isa = PBXBuildFile; fileRef = 79B38436232356FB0084FD77 /* RainForrest.scn */; };
 		79B5575A23233D930070E2A8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79B5575923233D930070E2A8 /* GoogleService-Info.plist */; };
+		79BF438D2324228A00917CB4 /* Jaguar.obj in Resources */ = {isa = PBXBuildFile; fileRef = 79BF438C2324228A00917CB4 /* Jaguar.obj */; };
+		79BF438F232422C300917CB4 /* jaguar.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 79BF438E232422C300917CB4 /* jaguar.mtl */; };
+		79BF43912324246F00917CB4 /* RainForestPart2.scn in Resources */ = {isa = PBXBuildFile; fileRef = 79BF43902324246F00917CB4 /* RainForestPart2.scn */; };
+		79BF4393232425C200917CB4 /* Fume_camp_sample.max in Resources */ = {isa = PBXBuildFile; fileRef = 79BF4392232425C200917CB4 /* Fume_camp_sample.max */; };
+		79BF43952324263700917CB4 /* RainForestPart3.scn in Resources */ = {isa = PBXBuildFile; fileRef = 79BF43942324263700917CB4 /* RainForestPart3.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +39,11 @@
 		79B38433232356B10084FD77 /* Tree_OBJ.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tree_OBJ.obj; sourceTree = "<group>"; };
 		79B38436232356FB0084FD77 /* RainForrest.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = RainForrest.scn; sourceTree = "<group>"; };
 		79B5575923233D930070E2A8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		79BF438C2324228A00917CB4 /* Jaguar.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jaguar.obj; sourceTree = "<group>"; };
+		79BF438E232422C300917CB4 /* jaguar.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jaguar.mtl; sourceTree = "<group>"; };
+		79BF43902324246F00917CB4 /* RainForestPart2.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = RainForestPart2.scn; sourceTree = "<group>"; };
+		79BF4392232425C200917CB4 /* Fume_camp_sample.max */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fume_camp_sample.max; sourceTree = "<group>"; };
+		79BF43942324263700917CB4 /* RainForestPart3.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = RainForestPart3.scn; sourceTree = "<group>"; };
 		7E1F2B44E66754F82820785E /* Pods_arTextBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_arTextBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0626EC313680DB3BE5B5734 /* Pods-arTextBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-arTextBook.debug.xcconfig"; path = "Target Support Files/Pods-arTextBook/Pods-arTextBook.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,6 +97,11 @@
 				79B38432232356B00084FD77 /* Tree_OBJ.mtl */,
 				79B38433232356B10084FD77 /* Tree_OBJ.obj */,
 				79B38436232356FB0084FD77 /* RainForrest.scn */,
+				79BF43902324246F00917CB4 /* RainForestPart2.scn */,
+				79BF43942324263700917CB4 /* RainForestPart3.scn */,
+				79BF4392232425C200917CB4 /* Fume_camp_sample.max */,
+				79BF438E232422C300917CB4 /* jaguar.mtl */,
+				79BF438C2324228A00917CB4 /* Jaguar.obj */,
 				794E9AAB2323311A00162DED /* Assets.xcassets */,
 				794E9AAD2323311A00162DED /* LaunchScreen.storyboard */,
 				794E9AB02323311A00162DED /* Info.plist */,
@@ -163,11 +178,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79BF43952324263700917CB4 /* RainForestPart3.scn in Resources */,
+				79BF4393232425C200917CB4 /* Fume_camp_sample.max in Resources */,
 				794E9AAF2323311A00162DED /* LaunchScreen.storyboard in Resources */,
 				79B38435232356B10084FD77 /* Tree_OBJ.obj in Resources */,
 				79B38434232356B10084FD77 /* Tree_OBJ.mtl in Resources */,
+				79BF43912324246F00917CB4 /* RainForestPart2.scn in Resources */,
 				79B5575A23233D930070E2A8 /* GoogleService-Info.plist in Resources */,
 				794E9AAC2323311A00162DED /* Assets.xcassets in Resources */,
+				79BF438D2324228A00917CB4 /* Jaguar.obj in Resources */,
+				79BF438F232422C300917CB4 /* jaguar.mtl in Resources */,
 				794E9AAA2323311800162DED /* Main.storyboard in Resources */,
 				79B38437232356FB0084FD77 /* RainForrest.scn in Resources */,
 			);
