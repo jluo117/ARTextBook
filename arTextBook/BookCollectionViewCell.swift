@@ -11,4 +11,5 @@ import UIKit
 class BookCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var BookTitle: UILabel!
     
+    
 }

@@ -138,16 +138,16 @@ class EnterClassCodeScreen: UIViewController, UITextFieldDelegate {
             print(myAry)
             myGroup.leave()
         })
-        myGroup.notify(queue: .main){
-            if valid{
-                let nextView = MyTextbooksView()
-                 let new = UINavigationController(rootViewController: nextView)
-                self.show(new, sender: self)
-            }
-            else{
-                print("wait here")
-            }
-        }
+//        myGroup.notify(queue: .main){
+//            if valid{
+//                let nextView = MyTextbooksView()
+//                 let new = UINavigationController(rootViewController: nextView)
+//                self.show(new, sender: self)
+//            }
+//            else{
+//                print("wait here")
+//            }
+//        }
     }
     
 }
