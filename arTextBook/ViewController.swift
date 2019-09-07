@@ -21,7 +21,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var EnteredCode: UITextField!
     
     
-   
     
     @IBAction func TextAction(_ sender: UITextField) {
         EnteredCode.becomeFirstResponder()
