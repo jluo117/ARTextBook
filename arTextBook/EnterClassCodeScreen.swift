@@ -109,7 +109,7 @@ class EnterClassCodeScreen: UIViewController, UITextFieldDelegate {
                 let alertController = UIAlertController(title: "Invalid Class ID", message:
                     "Enter a Valid Class Code", preferredStyle: .alert)
                 let action = UIAlertAction(title: "Exit", style: .cancel)
-                action.setValue(UIColor.init(named: "black"), forKey: "titleTextColor")
+                action.setValue(UIColor.black, forKey: "titleTextColor")
                 alertController.addAction(action)
                 valid = false
                 
