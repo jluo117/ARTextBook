@@ -56,16 +56,23 @@ class CartTableViewController: UITableViewController {
     */
 
     
+    @IBAction func Back(_ sender: Any) {
+        mySet = []
+        for myValue in self.books{
+            mySet.insert(myValue)
+        }
+    }
     // Override to support editing the table view.
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             // Delete the row from the data source
-            let toRemoveBook = books[indexPath.row]
-            mySet.remove(toRemoveBook)
+            let toRemove = books[indexPath.row]
+            mySet.remove(toRemove)
             books.remove(at: indexPath.row)
-            reset()
+            tableView.deleteRows(at: [indexPath], with: .fade)
+            
         }
-        self.tableView.reloadData()
+        
     }
     
 

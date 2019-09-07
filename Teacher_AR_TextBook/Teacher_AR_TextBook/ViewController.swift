@@ -10,7 +10,7 @@ import UIKit
 import FirebaseDatabase
 import Firebase
 import SwiftyJSON
-var curClassID = ""
+var curClassID = "none"
 class ViewController: UIViewController , UITextFieldDelegate{
     
     @IBOutlet weak var ClassID: UITextField!
@@ -27,7 +27,7 @@ class ViewController: UIViewController , UITextFieldDelegate{
         ClassID.becomeFirstResponder()
     }
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        curClassID = ClassID.text ?? ""
+        curClassID = ClassID.text ?? "none"
         ClassID.resignFirstResponder()
         return true
     }

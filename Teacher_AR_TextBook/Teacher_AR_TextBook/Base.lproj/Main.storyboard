@@ -153,6 +153,7 @@
                                 <navigationItem title="Cart" id="FPb-Mu-n6h">
                                     <barButtonItem key="leftBarButtonItem" title="Back" id="uiM-kC-7L2">
                                         <connections>
+                                            <action selector="Back:" destination="e2A-Ei-DVk" id="y2Y-62-LOi"/>
                                             <segue destination="iQI-Wq-Bzd" kind="show" id="JWz-8N-lka"/>
                                         </connections>
                                     </barButtonItem>
@@ -272,7 +273,6 @@
         <image name="math.jpg" width="1822" height="2500"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Ocg-ua-APi"/>
         <segue reference="JWz-8N-lka"/>
     </inferredMetricsTieBreakers>
 </document>
