@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/jamesluo/Documents/arTextBook/Teacher_AR_TextBook/Teacher_AR_TextBook/Calc.jpg">
+      location = "group:/Users/ngando1720/Documents/pennapps/ARTextBook/Teacher_AR_TextBook/Teacher_AR_TextBook/Calc.jpg">
    </FileRef>
    <FileRef
       location = "group:Teacher_AR_TextBook.xcodeproj">

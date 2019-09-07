@@ -270,9 +270,10 @@
         <image name="671712.jpg" width="309" height="400"/>
         <image name="CSBook.jpg" width="405" height="500"/>
         <image name="histoy.jpg" width="421" height="500"/>
-        <image name="math.jpg" width="1822" height="2500"/>
+        <image name="math.jpg" width="512" height="640"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="JWz-8N-lka"/>
+        <segue reference="1ds-6E-lP4"/>
+        <segue reference="dag-Y1-LOg"/>
     </inferredMetricsTieBreakers>
 </document>

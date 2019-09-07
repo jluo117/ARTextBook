@@ -25,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func buildData(){
         let enivorment  = TextBook(BookName: "Env", Genre: "Science", Level: 3,Image: "Env.jpg")
         let compSci = TextBook(BookName: "Comp", Genre: "ENGR", Level: 5, Image: "CS.jpg")
-        let math = TextBook(BookName: "Calc", Genre: "Math", Level: 4, Image: "Calc.jpg")
+        let math = TextBook(BookName: "Calc", Genre: "Math", Level: 4, Image: "math.jpg")
         let history = TextBook(BookName: "US History", Genre: "History", Level:2 , Image: "US.jpg")
         myBooks = [enivorment,compSci,math,history]
     }
