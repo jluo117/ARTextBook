@@ -9,4 +9,5 @@ target 'arTextBook' do
 pod 'Firebase/Analytics'
 pod 'Firebase/Database'
 pod 'Alamofire-SwiftyJSON'
+
 end

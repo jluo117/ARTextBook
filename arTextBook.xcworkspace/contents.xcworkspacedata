@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/jamesluo/Documents/arTextBook/arTextBook/Cube_obj.obj">
+   </FileRef>
+   <FileRef
       location = "group:arTextBook.xcodeproj">
    </FileRef>
    <FileRef
