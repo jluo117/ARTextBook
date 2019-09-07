@@ -35,34 +35,34 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func LoadDataBase(_ sender: UIButton) {
-        LoadFunction()
+//        LoadFunction()
     }
-    func LoadFunction(){
-        let ref = Database.database().reference()
-        let myData = ref.child(myClassCode)
-        self.myAry = []
-        myData.observeSingleEvent(of: .value, with: {
-            (snapshot) in
-            let myValue = JSON(snapshot.value as Any)
-            if myValue == JSON.null{
-                let alertController = UIAlertController(title: "Invalid Class ID", message:
-                    "Enter a Valid Class Code", preferredStyle: .alert)
-                alertController.addAction(UIAlertAction(title: "Dismiss", style: .default))
-                
-                self.present(alertController, animated: true, completion: nil)
-            }
-            let myDataAry = myValue.arrayValue
-            for myData in myDataAry{
-                let myBook = myData["Name"].string
-                if (myBook != nil){
-                    self.myAry.append(myBook!)
-                }
-                
-            }
-            
-            print(self.myAry)
-            
-        })
-    }
+//    func LoadFunction(){
+//        let ref = Database.database().reference()
+//        let myData = ref.child(myClassCode)
+//        self.myAry = []
+//        myData.observeSingleEvent(of: .value, with: {
+//            (snapshot) in
+//            let myValue = JSON(snapshot.value as Any)
+//            if myValue == JSON.null{
+//                let alertController = UIAlertController(title: "Invalid Class ID", message:
+//                    "Enter a Valid Class Code", preferredStyle: .alert)
+//                alertController.addAction(UIAlertAction(title: "Dismiss", style: .default))
+//
+//                self.present(alertController, animated: true, completion: nil)
+//            }
+//            let myDataAry = myValue.arrayValue
+//            for myData in myDataAry{
+//                let myBook = myData["Name"].string
+//                if (myBook != nil){
+//                    self.myAry.append(myBook!)
+//                }
+//
+//            }
+//
+//            print(self.myAry)
+//
+//        })
+//    }
 }
 

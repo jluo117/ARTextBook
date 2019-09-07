@@ -7,9 +7,11 @@
 //
 
 import UIKit
-
-class EnterClassCodeScreen: UIViewController {
-    
+import FirebaseDatabase
+import SwiftyJSON
+class EnterClassCodeScreen: UIViewController, UITextFieldDelegate {
+    var curClassCode = ""
+    var myAry = [String] ()
     lazy var entryField: UITextField = {
         let field = UITextField(frame: CGRect(x: 20, y: 50, width: self.view.frame.width * 0.8, height: 50))
         field.layer.borderColor = UIColor.black.cgColor
@@ -23,12 +25,12 @@ class EnterClassCodeScreen: UIViewController {
         
         setupViewController()
         setUpLayout()
-        loadTextbooks()
+        //loadTextbooks()
     }
     
     lazy var entryLabel: UITextField = {
         let label = UITextField(frame: .zero)
-        label.text = "Hello World"
+        label.text = "Welcome"
         
         return label
     }()
@@ -47,7 +49,7 @@ class EnterClassCodeScreen: UIViewController {
     
     @objc func loadTextbooks() { //objective C function
         
-        print("loading!")
+        LoadFunction()
         
     }
     
@@ -58,8 +60,18 @@ class EnterClassCodeScreen: UIViewController {
         self.view.addSubview(entryField)
         self.view.addSubview(entryLabel)
         self.view.addSubview(entryButton)
+        entryField.delegate = self
     }
-    
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        entryField.becomeFirstResponder()
+        entryField.text = ""
+    }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        entryField.resignFirstResponder()
+        self.curClassCode = entryField.text ?? ""
+        return true
+        
+    }
     func setUpLayout() {
         
         entryField.translatesAutoresizingMaskIntoConstraints = false
@@ -81,6 +93,53 @@ class EnterClassCodeScreen: UIViewController {
             entryButton.heightAnchor.constraint(equalToConstant: self.view.frame.height * 0.05)
             ])
         
+    }
+    func LoadFunction(){
+        let ref = Database.database().reference()
+        let myData = ref.child(self.curClassCode)
+        let myGroup = DispatchGroup()
+        self.myAry = []
+        var valid = false
+        myGroup.enter()
+        myData.observeSingleEvent(of: .value, with: {
+            (snapshot) in
+            let myValue = JSON(snapshot.value as Any)
+            if myValue == JSON.null{
+                let alertController = UIAlertController(title: "Invalid Class ID", message:
+                    "Enter a Valid Class Code", preferredStyle: .alert)
+                let action = UIAlertAction(title: "Exit", style: .cancel)
+                action.setValue(UIColor.init(named: "black"), forKey: "titleTextColor")
+                alertController.addAction(action)
+                valid = false
+                
+                //alertController.view.backgroundColor = UIColor.init(named: "Blue")
+                self.present(alertController, animated: false, completion: nil)
+                
+                
+            }
+            else{
+                valid = true
+            }
+            let myDataAry = myValue.arrayValue
+            for myData in myDataAry{
+                let myBook = myData["Name"].string
+                if (myBook != nil){
+                    self.myAry.append(myBook!)
+                }
+                
+            }
+            
+            print(self.myAry)
+            myGroup.leave()
+        })
+        myGroup.notify(queue: .main){
+            if valid{
+                print("next screen")
+            }
+            else{
+                print("wait here")
+            }
+        }
     }
     
 }
