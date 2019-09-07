@@ -42,8 +42,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         myData.observeSingleEvent(of: .value, with: {
             (snapshot) in
             let myValue = JSON(snapshot.value as Any)
-            if myValue == nil{
-                let alertController = UIAlertController(title: "invalid Class ID", message:
+            if myValue == JSON.null{
+                let alertController = UIAlertController(title: "Invalid Class ID", message:
                     "Enter a Valid Class Code", preferredStyle: .alert)
                 alertController.addAction(UIAlertAction(title: "Dismiss", style: .default))
                 
