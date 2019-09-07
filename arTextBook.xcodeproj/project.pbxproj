@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5D8D2E384DC43D0EDC6645E1 /* Pods_arTextBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E1F2B44E66754F82820785E /* Pods_arTextBook.framework */; };
 		6B59B08C23235F0800AFF4CC /* EnterClassCodeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B59B08B23235F0800AFF4CC /* EnterClassCodeScreen.swift */; };
+		6B9CFB2F2324066A000284B6 /* myTextbooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9CFB2E2324066A000284B6 /* myTextbooksView.swift */; };
 		794E9AA52323311800162DED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794E9AA42323311800162DED /* AppDelegate.swift */; };
 		794E9AAA2323311800162DED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 794E9AA82323311800162DED /* Main.storyboard */; };
 		794E9AAC2323311A00162DED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 794E9AAB2323311A00162DED /* Assets.xcassets */; };
@@ -17,12 +18,12 @@
 		79B38435232356B10084FD77 /* Tree_OBJ.obj in Resources */ = {isa = PBXBuildFile; fileRef = 79B38433232356B10084FD77 /* Tree_OBJ.obj */; };
 		79B38437232356FB0084FD77 /* RainForrest.scn in Resources */ = {isa = PBXBuildFile; fileRef = 79B38436232356FB0084FD77 /* RainForrest.scn */; };
 		79B5575A23233D930070E2A8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79B5575923233D930070E2A8 /* GoogleService-Info.plist */; };
-		F6A7693C2323F78800DF5D49 /* myTextbooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A7693B2323F78800DF5D49 /* myTextbooksView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3D7BFA901E919010DA5D901B /* Pods-arTextBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-arTextBook.release.xcconfig"; path = "Target Support Files/Pods-arTextBook/Pods-arTextBook.release.xcconfig"; sourceTree = "<group>"; };
 		6B59B08B23235F0800AFF4CC /* EnterClassCodeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterClassCodeScreen.swift; sourceTree = "<group>"; };
+		6B9CFB2E2324066A000284B6 /* myTextbooksView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myTextbooksView.swift; sourceTree = "<group>"; };
 		794E9AA12323311800162DED /* arTextBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arTextBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		794E9AA42323311800162DED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		794E9AA92323311800162DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -35,7 +36,6 @@
 		79B5575923233D930070E2A8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7E1F2B44E66754F82820785E /* Pods_arTextBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_arTextBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0626EC313680DB3BE5B5734 /* Pods-arTextBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-arTextBook.debug.xcconfig"; path = "Target Support Files/Pods-arTextBook/Pods-arTextBook.debug.xcconfig"; sourceTree = "<group>"; };
-		F6A7693B2323F78800DF5D49 /* myTextbooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = myTextbooksView.swift; path = /Users/MaxGillespie/Documents/ARTextBook/arTextBook/myTextbooksView.swift; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 			children = (
 				79B5575923233D930070E2A8 /* GoogleService-Info.plist */,
 				794E9AA42323311800162DED /* AppDelegate.swift */,
-				F6A7693B2323F78800DF5D49 /* myTextbooksView.swift */,
+				6B9CFB2E2324066A000284B6 /* myTextbooksView.swift */,
 				6B59B08B23235F0800AFF4CC /* EnterClassCodeScreen.swift */,
 				794E9AA82323311800162DED /* Main.storyboard */,
 				79B38432232356B00084FD77 /* Tree_OBJ.mtl */,
@@ -238,7 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				794E9AA52323311800162DED /* AppDelegate.swift in Sources */,
-				F6A7693C2323F78800DF5D49 /* myTextbooksView.swift in Sources */,
+				6B9CFB2F2324066A000284B6 /* myTextbooksView.swift in Sources */,
 				6B59B08C23235F0800AFF4CC /* EnterClassCodeScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

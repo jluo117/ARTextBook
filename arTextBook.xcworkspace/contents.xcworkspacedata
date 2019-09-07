@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/MaxGillespie/Documents/ARTextBook/arTextBook/myTextbooksView.swift">
-   </FileRef>
-   <FileRef
       location = "group:arTextBook.xcodeproj">
    </FileRef>
    <FileRef
