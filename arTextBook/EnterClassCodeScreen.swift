@@ -99,7 +99,7 @@ class EnterClassCodeScreen: UIViewController, UITextFieldDelegate {
         let ref = Database.database().reference()
         let myData = ref.child(self.curClassCode)
         let myGroup = DispatchGroup()
-        self.myAry = []
+        
         var valid = false
         myGroup.enter()
         myData.observeSingleEvent(of: .value, with: {
