@@ -36,6 +36,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func LoadDataBase(_ sender: UIButton) {
+        LoadFunction()
+    }
+    func LoadFunction(){
         let ref = Database.database().reference()
         let myData = ref.child(myClassCode)
         self.myAry = []
