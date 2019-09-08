@@ -49,7 +49,12 @@ class BookCollectionViewController: UICollectionViewController {
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Book", for: indexPath) as! BookCollectionViewCell
-        cell.BookName.setTitle(userBooks[indexPath.row], for: .normal) 
+        cell.BookName.setTitle(userBooks[indexPath.row], for: .normal)
+        
+        cell.layer.cornerRadius = 15
+        cell.layer.shadowColor = UIColor.black.cgColor
+        cell.layer.shadowOpacity = 1
+        cell.layer.shadowOffset = .zero
         // Configure the cell
     
         return cell
