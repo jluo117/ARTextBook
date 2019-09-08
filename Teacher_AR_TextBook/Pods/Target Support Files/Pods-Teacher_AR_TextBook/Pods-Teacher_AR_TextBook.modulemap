@@ -1,6 +1,0 @@
-framework module Pods_Teacher_AR_TextBook {
-  umbrella header "Pods-Teacher_AR_TextBook-umbrella.h"
-
-  export *
-  module * { export * }
-}
