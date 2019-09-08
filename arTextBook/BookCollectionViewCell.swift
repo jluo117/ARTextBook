@@ -15,6 +15,4 @@ class BookCollectionViewCell: UICollectionViewCell {
     }
     
     @IBOutlet weak var BookName: UIButton!
-    
-    
 }

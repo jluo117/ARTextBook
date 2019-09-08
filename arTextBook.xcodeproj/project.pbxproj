@@ -30,8 +30,12 @@
 		79DDFBD0232453F700A3CA76 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DDFBCF232453F700A3CA76 /* LoginViewController.swift */; };
 		79DDFBD22324586100A3CA76 /* BookCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DDFBD12324586100A3CA76 /* BookCollectionViewController.swift */; };
 		79DDFBD4232459AA00A3CA76 /* BookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DDFBD3232459AA00A3CA76 /* BookCollectionViewCell.swift */; };
+<<<<<<< HEAD
 		79DDFBD72324999200A3CA76 /* math.scn in Resources */ = {isa = PBXBuildFile; fileRef = 79DDFBD62324999200A3CA76 /* math.scn */; };
 		79DDFBD9232499D100A3CA76 /* Rectangle.obj in Resources */ = {isa = PBXBuildFile; fileRef = 79DDFBD8232499D000A3CA76 /* Rectangle.obj */; };
+=======
+		F644B8072324619900DBCF45 /* ARSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F644B8062324619900DBCF45 /* ARSceneView.swift */; };
+>>>>>>> 46c55be7dde8760d43ae7a22b60e4b0426740715
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +70,7 @@
 		79DDFBD8232499D000A3CA76 /* Rectangle.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rectangle.obj; sourceTree = "<group>"; };
 		7E1F2B44E66754F82820785E /* Pods_arTextBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_arTextBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0626EC313680DB3BE5B5734 /* Pods-arTextBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-arTextBook.debug.xcconfig"; path = "Target Support Files/Pods-arTextBook/Pods-arTextBook.debug.xcconfig"; sourceTree = "<group>"; };
+		F644B8062324619900DBCF45 /* ARSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSceneView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +141,7 @@
 				794E9AAB2323311A00162DED /* Assets.xcassets */,
 				794E9AAD2323311A00162DED /* LaunchScreen.storyboard */,
 				794E9AB02323311A00162DED /* Info.plist */,
+				F644B8062324619900DBCF45 /* ARSceneView.swift */,
 			);
 			path = arTextBook;
 			sourceTree = "<group>";
@@ -297,6 +303,7 @@
 			files = (
 				79DDFBD0232453F700A3CA76 /* LoginViewController.swift in Sources */,
 				794E9AA52323311800162DED /* AppDelegate.swift in Sources */,
+				F644B8072324619900DBCF45 /* ARSceneView.swift in Sources */,
 				79DDFBD4232459AA00A3CA76 /* BookCollectionViewCell.swift in Sources */,
 				6B59B08C23235F0800AFF4CC /* EnterClassCodeScreen.swift in Sources */,
 				79DDFBD22324586100A3CA76 /* BookCollectionViewController.swift in Sources */,
