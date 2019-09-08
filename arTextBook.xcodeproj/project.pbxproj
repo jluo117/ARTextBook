@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		5D8D2E384DC43D0EDC6645E1 /* Pods_arTextBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E1F2B44E66754F82820785E /* Pods_arTextBook.framework */; };
 		6B59B08C23235F0800AFF4CC /* EnterClassCodeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B59B08B23235F0800AFF4CC /* EnterClassCodeScreen.swift */; };
-		6B9CFB2F2324066A000284B6 /* myTextbooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9CFB2E2324066A000284B6 /* myTextbooksView.swift */; };
 		794E9AA52323311800162DED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794E9AA42323311800162DED /* AppDelegate.swift */; };
 		794E9AAA2323311800162DED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 794E9AA82323311800162DED /* Main.storyboard */; };
 		794E9AAC2323311A00162DED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 794E9AAB2323311A00162DED /* Assets.xcassets */; };
@@ -28,12 +27,20 @@
 		79DDFBCA2324306200A3CA76 /* Arrow.obj in Resources */ = {isa = PBXBuildFile; fileRef = 79DDFBC92324306200A3CA76 /* Arrow.obj */; };
 		79DDFBCC2324307900A3CA76 /* LinkListAdd.scn in Resources */ = {isa = PBXBuildFile; fileRef = 79DDFBCB2324307900A3CA76 /* LinkListAdd.scn */; };
 		79DDFBCE232430E900A3CA76 /* LinkListDone.scn in Resources */ = {isa = PBXBuildFile; fileRef = 79DDFBCD232430E900A3CA76 /* LinkListDone.scn */; };
+		79DDFBD0232453F700A3CA76 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DDFBCF232453F700A3CA76 /* LoginViewController.swift */; };
+		79DDFBD22324586100A3CA76 /* BookCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DDFBD12324586100A3CA76 /* BookCollectionViewController.swift */; };
+		79DDFBD4232459AA00A3CA76 /* BookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DDFBD3232459AA00A3CA76 /* BookCollectionViewCell.swift */; };
+<<<<<<< HEAD
+		79DDFBD72324999200A3CA76 /* math.scn in Resources */ = {isa = PBXBuildFile; fileRef = 79DDFBD62324999200A3CA76 /* math.scn */; };
+		79DDFBD9232499D100A3CA76 /* Rectangle.obj in Resources */ = {isa = PBXBuildFile; fileRef = 79DDFBD8232499D000A3CA76 /* Rectangle.obj */; };
+=======
+		F644B8072324619900DBCF45 /* ARSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F644B8062324619900DBCF45 /* ARSceneView.swift */; };
+>>>>>>> 46c55be7dde8760d43ae7a22b60e4b0426740715
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3D7BFA901E919010DA5D901B /* Pods-arTextBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-arTextBook.release.xcconfig"; path = "Target Support Files/Pods-arTextBook/Pods-arTextBook.release.xcconfig"; sourceTree = "<group>"; };
 		6B59B08B23235F0800AFF4CC /* EnterClassCodeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterClassCodeScreen.swift; sourceTree = "<group>"; };
-		6B9CFB2E2324066A000284B6 /* myTextbooksView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myTextbooksView.swift; sourceTree = "<group>"; };
 		794E9AA12323311800162DED /* arTextBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arTextBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		794E9AA42323311800162DED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		794E9AA92323311800162DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,8 +63,14 @@
 		79DDFBC92324306200A3CA76 /* Arrow.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Arrow.obj; sourceTree = "<group>"; };
 		79DDFBCB2324307900A3CA76 /* LinkListAdd.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = LinkListAdd.scn; sourceTree = "<group>"; };
 		79DDFBCD232430E900A3CA76 /* LinkListDone.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = LinkListDone.scn; sourceTree = "<group>"; };
+		79DDFBCF232453F700A3CA76 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		79DDFBD12324586100A3CA76 /* BookCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewController.swift; sourceTree = "<group>"; };
+		79DDFBD3232459AA00A3CA76 /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
+		79DDFBD62324999200A3CA76 /* math.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = math.scn; sourceTree = "<group>"; };
+		79DDFBD8232499D000A3CA76 /* Rectangle.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rectangle.obj; sourceTree = "<group>"; };
 		7E1F2B44E66754F82820785E /* Pods_arTextBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_arTextBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0626EC313680DB3BE5B5734 /* Pods-arTextBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-arTextBook.debug.xcconfig"; path = "Target Support Files/Pods-arTextBook/Pods-arTextBook.debug.xcconfig"; sourceTree = "<group>"; };
+		F644B8062324619900DBCF45 /* ARSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSceneView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,20 +115,24 @@
 			isa = PBXGroup;
 			children = (
 				79B5575923233D930070E2A8 /* GoogleService-Info.plist */,
+				79DDFBD12324586100A3CA76 /* BookCollectionViewController.swift */,
+				79DDFBD3232459AA00A3CA76 /* BookCollectionViewCell.swift */,
 				79BF4398232429AD00917CB4 /* Cube_obj.obj */,
+				79DDFBD62324999200A3CA76 /* math.scn */,
 				79DDFBC723242C6F00A3CA76 /* LinkedList.scn */,
 				79DDFBCB2324307900A3CA76 /* LinkListAdd.scn */,
 				79DDFBCD232430E900A3CA76 /* LinkListDone.scn */,
 				794E9AA42323311800162DED /* AppDelegate.swift */,
-				6B9CFB2E2324066A000284B6 /* myTextbooksView.swift */,
 				79BF43972324299C00917CB4 /* Cube_obj.obj */,
 				79DDFBC92324306200A3CA76 /* Arrow.obj */,
 				6B59B08B23235F0800AFF4CC /* EnterClassCodeScreen.swift */,
 				794E9AA82323311800162DED /* Main.storyboard */,
+				79DDFBCF232453F700A3CA76 /* LoginViewController.swift */,
 				79B38432232356B00084FD77 /* Tree_OBJ.mtl */,
 				79B38433232356B10084FD77 /* Tree_OBJ.obj */,
 				79B38436232356FB0084FD77 /* RainForrest.scn */,
 				79BF43902324246F00917CB4 /* RainForestPart2.scn */,
+				79DDFBD8232499D000A3CA76 /* Rectangle.obj */,
 				79BF43942324263700917CB4 /* RainForestPart3.scn */,
 				79DDFBC523242C4200A3CA76 /* New_RedBase_Color.png */,
 				79BF4392232425C200917CB4 /* Fume_camp_sample.max */,
@@ -124,6 +141,7 @@
 				794E9AAB2323311A00162DED /* Assets.xcassets */,
 				794E9AAD2323311A00162DED /* LaunchScreen.storyboard */,
 				794E9AB02323311A00162DED /* Info.plist */,
+				F644B8062324619900DBCF45 /* ARSceneView.swift */,
 			);
 			path = arTextBook;
 			sourceTree = "<group>";
@@ -199,12 +217,14 @@
 			files = (
 				79BF43952324263700917CB4 /* RainForestPart3.scn in Resources */,
 				79BF4393232425C200917CB4 /* Fume_camp_sample.max in Resources */,
+				79DDFBD72324999200A3CA76 /* math.scn in Resources */,
 				794E9AAF2323311A00162DED /* LaunchScreen.storyboard in Resources */,
 				79B38435232356B10084FD77 /* Tree_OBJ.obj in Resources */,
 				79DDFBCC2324307900A3CA76 /* LinkListAdd.scn in Resources */,
 				79DDFBCE232430E900A3CA76 /* LinkListDone.scn in Resources */,
 				79B38434232356B10084FD77 /* Tree_OBJ.mtl in Resources */,
 				79DDFBCA2324306200A3CA76 /* Arrow.obj in Resources */,
+				79DDFBD9232499D100A3CA76 /* Rectangle.obj in Resources */,
 				79DDFBC823242C6F00A3CA76 /* LinkedList.scn in Resources */,
 				79DDFBC623242C4200A3CA76 /* New_RedBase_Color.png in Resources */,
 				79BF43912324246F00917CB4 /* RainForestPart2.scn in Resources */,
@@ -281,9 +301,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79DDFBD0232453F700A3CA76 /* LoginViewController.swift in Sources */,
 				794E9AA52323311800162DED /* AppDelegate.swift in Sources */,
-				6B9CFB2F2324066A000284B6 /* myTextbooksView.swift in Sources */,
+				F644B8072324619900DBCF45 /* ARSceneView.swift in Sources */,
+				79DDFBD4232459AA00A3CA76 /* BookCollectionViewCell.swift in Sources */,
 				6B59B08C23235F0800AFF4CC /* EnterClassCodeScreen.swift in Sources */,
+				79DDFBD22324586100A3CA76 /* BookCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TCL5NNKKA5;
+				DEVELOPMENT_TEAM = Q7TC672PPY;
 				INFOPLIST_FILE = arTextBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,7 +473,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TCL5NNKKA5;
+				DEVELOPMENT_TEAM = Q7TC672PPY;
 				INFOPLIST_FILE = arTextBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

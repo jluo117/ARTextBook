@@ -14,15 +14,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
         FirebaseApp.configure()
-        
-        let enterCodeScreen = EnterClassCodeScreen()
-        window?.rootViewController = enterCodeScreen
-        window?.tintColor = .white
-        
+//        
+//        window = UIWindow(frame: UIScreen.main.bounds)
+//        
+//        let loggedIn = true
+//        
+//        var startVC = UIViewController()
+//        if (loggedIn) {
+//            let layout = UICollectionViewLayout()
+//            startVC = MyTextbooksView(collectionViewLayout: layout)
+//        } else {
+//            startVC = EnterClassCodeScreen()
+//        }
+//        
+//        window?.makeKeyAndVisible()
+//        window?.rootViewController = startVC
+//        window?.tintColor = .white
+//        
         return true
     }
 
