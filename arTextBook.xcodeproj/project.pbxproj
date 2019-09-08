@@ -30,6 +30,8 @@
 		79DDFBD0232453F700A3CA76 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DDFBCF232453F700A3CA76 /* LoginViewController.swift */; };
 		79DDFBD22324586100A3CA76 /* BookCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DDFBD12324586100A3CA76 /* BookCollectionViewController.swift */; };
 		79DDFBD4232459AA00A3CA76 /* BookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DDFBD3232459AA00A3CA76 /* BookCollectionViewCell.swift */; };
+		79DDFBD72324999200A3CA76 /* math.scn in Resources */ = {isa = PBXBuildFile; fileRef = 79DDFBD62324999200A3CA76 /* math.scn */; };
+		79DDFBD9232499D100A3CA76 /* Rectangle.obj in Resources */ = {isa = PBXBuildFile; fileRef = 79DDFBD8232499D000A3CA76 /* Rectangle.obj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +62,8 @@
 		79DDFBCF232453F700A3CA76 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		79DDFBD12324586100A3CA76 /* BookCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewController.swift; sourceTree = "<group>"; };
 		79DDFBD3232459AA00A3CA76 /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
+		79DDFBD62324999200A3CA76 /* math.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = math.scn; sourceTree = "<group>"; };
+		79DDFBD8232499D000A3CA76 /* Rectangle.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rectangle.obj; sourceTree = "<group>"; };
 		7E1F2B44E66754F82820785E /* Pods_arTextBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_arTextBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0626EC313680DB3BE5B5734 /* Pods-arTextBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-arTextBook.debug.xcconfig"; path = "Target Support Files/Pods-arTextBook/Pods-arTextBook.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,6 +113,7 @@
 				79DDFBD12324586100A3CA76 /* BookCollectionViewController.swift */,
 				79DDFBD3232459AA00A3CA76 /* BookCollectionViewCell.swift */,
 				79BF4398232429AD00917CB4 /* Cube_obj.obj */,
+				79DDFBD62324999200A3CA76 /* math.scn */,
 				79DDFBC723242C6F00A3CA76 /* LinkedList.scn */,
 				79DDFBCB2324307900A3CA76 /* LinkListAdd.scn */,
 				79DDFBCD232430E900A3CA76 /* LinkListDone.scn */,
@@ -122,6 +127,7 @@
 				79B38433232356B10084FD77 /* Tree_OBJ.obj */,
 				79B38436232356FB0084FD77 /* RainForrest.scn */,
 				79BF43902324246F00917CB4 /* RainForestPart2.scn */,
+				79DDFBD8232499D000A3CA76 /* Rectangle.obj */,
 				79BF43942324263700917CB4 /* RainForestPart3.scn */,
 				79DDFBC523242C4200A3CA76 /* New_RedBase_Color.png */,
 				79BF4392232425C200917CB4 /* Fume_camp_sample.max */,
@@ -205,12 +211,14 @@
 			files = (
 				79BF43952324263700917CB4 /* RainForestPart3.scn in Resources */,
 				79BF4393232425C200917CB4 /* Fume_camp_sample.max in Resources */,
+				79DDFBD72324999200A3CA76 /* math.scn in Resources */,
 				794E9AAF2323311A00162DED /* LaunchScreen.storyboard in Resources */,
 				79B38435232356B10084FD77 /* Tree_OBJ.obj in Resources */,
 				79DDFBCC2324307900A3CA76 /* LinkListAdd.scn in Resources */,
 				79DDFBCE232430E900A3CA76 /* LinkListDone.scn in Resources */,
 				79B38434232356B10084FD77 /* Tree_OBJ.mtl in Resources */,
 				79DDFBCA2324306200A3CA76 /* Arrow.obj in Resources */,
+				79DDFBD9232499D100A3CA76 /* Rectangle.obj in Resources */,
 				79DDFBC823242C6F00A3CA76 /* LinkedList.scn in Resources */,
 				79DDFBC623242C4200A3CA76 /* New_RedBase_Color.png in Resources */,
 				79BF43912324246F00917CB4 /* RainForestPart2.scn in Resources */,
